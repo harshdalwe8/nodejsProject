@@ -8,7 +8,8 @@ const userModel = {
     insertUser: async (userName,userEmail)=>{
         let insertedUser = await db.query(`INSERT INTO USERS(username,useremail) VALUES('${userName}','${userEmail}')`);
         return insertedUser;
-    }
+    },
+    // todo update and delete code to be done 
 }
 
 module.exports = userModel;
