@@ -2,7 +2,7 @@
 
 
 ## step 1 : Install github to pc 
-## step 2 : clone the repo
+## step 2 : clone the repo (git clone url)
 ## step 3 : add new file to your root DIRECTORY
 ## step 4 : In terminal write following commands
 ### git add .                                       // add the file to repo
